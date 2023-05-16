@@ -6,15 +6,15 @@
 body {
   background-image: url("../img/space-background.jpeg");
   background-size: contain;
+  font-family: "Space Mono", monospace;
 }
-.container {
-  padding-top: 30px;
+
+main {
   text-align: center;
-} 
-  
+}
+
 h1 {
   color: #fff;
-  font-family: 'Space Mono', monospace;
   font-size: 3rem;
   text-align: center;
   font-weight: 300;
@@ -30,9 +30,30 @@ img {
   height: auto;
   padding: 20px;
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 
 form {
   padding: 30px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pseudonym {
+  margin: 0 0 0 10px;
 }
